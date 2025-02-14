@@ -6,7 +6,7 @@ import ellipse3 from "../public/ellipse/Ellipse2889.svg";
 
 const Ellipse = () => {
   return (
-    <div>
+    <div className="absolute top-0 left-0 w-full h-full">
       <Image
         src={ellipse1}
         alt="ellipse"
