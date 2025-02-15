@@ -27,7 +27,7 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {/* <div
+        <div
           className=" top-0 left-0 w-full h-full absolute z-0"
           id="background"
         >
@@ -36,7 +36,7 @@ export default function RootLayout({ children }) {
           <RocketMan className="z-1 " />
           <Clouds className="z-2" />
           <Logo className="z-3 m-3" />
-        </div> */}
+        </div>
         <main className="z-1">{children}</main>
       </body>
     </html>
