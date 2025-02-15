@@ -3,6 +3,8 @@ import "./globals.css";
 import Clouds from "@/components/Clouds";
 import Ellipse from "@/components/Ellipse";
 import Doodle from "@/components/Doodle";
+import Logo from "@/components/Logo";
+import RocketMan from "@/components/RocketMan";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -28,6 +30,8 @@ export default function RootLayout({ children }) {
         <Clouds />
         <Ellipse />
         <Doodle />
+        <Logo />
+        <RocketMan />
         {children}
       </body>
     </html>

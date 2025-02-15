@@ -9,7 +9,7 @@ import cLetter from "../public/doodles/C.svg";
 
 const Doodle = () => {
   return (
-    <div>
+    <div className="absolute top-0 left-0 w-full h-full">
       <Image
         src={leaf}
         alt="top mid leaf"
@@ -43,7 +43,7 @@ const Doodle = () => {
       <Image
         src={cLetter}
         alt="C letter"
-        className="absolute top-[245px] left-[61.09px]"
+        className="absolute top-[600px] left-[41px]"
       />
     </div>
   );
