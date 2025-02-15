@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const RocketMan = () => {
   return (
-    <div>
+    <div className="absolute top-0 left-0 w-full h-full">
       <Image
         src={rocketMan}
         alt="rocket man"

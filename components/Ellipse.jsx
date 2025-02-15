@@ -20,7 +20,7 @@ const Ellipse = () => {
       <Image
         src={ellipse3}
         alt="ellipse"
-        className="absolute top-[922px] left-[78px]"
+        className="absolute bottom-[167px] left-[78px]"
       />
     </div>
   );

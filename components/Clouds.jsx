@@ -26,7 +26,7 @@ const Clouds = () => {
       <Image
         src={halfScreenCloud}
         alt="Big cloud"
-        className="inline-block absolute bottom-0 right-0 object-contain"
+        className="absolute bottom-0 right-0 object-contain"
       />
     </div>
   );

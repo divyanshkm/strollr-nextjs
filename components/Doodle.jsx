@@ -28,23 +28,23 @@ const Doodle = () => {
       <Image
         src={smallStar}
         alt="bottom star"
-        className="absolute top-[1051.79px] left-[136px]"
+        className="absolute bottom-[50.44px] left-[136px]"
       />
       <Image
         src={aLetter}
         alt="A letter"
-        className="absolute top-[983.57px] left-[293px]"
+        className="absolute bottom-[106.81px] left-[293px]"
       />
       <Image
         src={bLetter}
         alt="B letter"
         className="absolute top-[378.5px] left-[518px]"
       />
-      <Image
+      {/* <Image
         src={cLetter}
         alt="C letter"
         className="absolute top-[600px] left-[41px]"
-      />
+      /> */}
     </div>
   );
 };
